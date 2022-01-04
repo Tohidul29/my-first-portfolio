@@ -22,6 +22,7 @@ h1{
 
 section{
     display: flex;
+    margin-bottom: 140px;
 }
 
 .intro{
@@ -35,6 +36,19 @@ section{
 }
 
 .pic-main img{
+    width: 100%;
+}
+.detail{
+    width: 50%;
+    padding: 3%;
+}
+
+.pic-another{
+    width: 50%;
+    padding: 3%;
+}
+
+.pic-another img{
     width: 100%;
 }
 
@@ -59,4 +73,10 @@ section{
 .upper{
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.middle{
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
 }
