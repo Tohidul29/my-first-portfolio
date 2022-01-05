@@ -34,9 +34,8 @@ h1{
     width: 50%;
     padding: 3%;
     box-shadow: 10px 10px 40px gray;
-    padding-left: 30px;
     margin: 20px 40px;
-    
+    border-radius: 5px;
 }
 
 .pic-main{
@@ -94,4 +93,24 @@ h1{
 .exp{
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
+}
+
+.exp-box{
+    padding: 0 50px 0 50px;
+}
+
+#noob-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;    
+}
+
+#bacca-developer{
+    border-left: 8px solid;
+    border-image: linear-gradient(red, orange);
+    border-image-slice: 1;    
+}
+
+footer p{
+    text-align: center;
 }
